@@ -1,0 +1,49 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px;
+}
+nav ul {
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+}
+nav ul {
+    float: right;
+}
+nav ul:first-child {
+    float: left;
+}
+section.logo {
+    position: absolute;
+    top: calc(35vh - 96px);
+    left: calc(50vw - 136px);
+}
+section.searchbox {
+    position: absolute;
+    top: calc(38vh);
+    left: calc(50vw - 150px);
+}
+section.searchbox input {
+    width: 300px;
+    border-radius: 5px;
+}
+section.buttons {
+    position: absolute;
+    top: calc(45vh);
+    left: calc(50vw - 150px);
+}
+section.buttons button:first-child {
+    margin-right: 5.5vw;
+}
+section.bottomnav nav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
